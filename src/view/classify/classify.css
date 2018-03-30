@@ -1,0 +1,95 @@
+#classify{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+#classify .classify_list {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	border-top: 1px solid #eeeeee;
+	margin-top: 10px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+#classify .classify_list .classify_list_left{
+	width: 130px;
+	height: 100%;
+	background-color: #f0eced;
+}
+#classify .classify_list .classify_list_left ul{
+	width: 100%;
+	height: 100%;
+	background-color: #f0eced;
+}
+#classify .classify_list .classify_list_left ul li{
+	width: 100%;
+	line-height: .8rem;
+	text-align: center;
+	font-size: .30rem;
+}
+#classify .classify_list .classify_list_left ul li.bgli{
+	width: 100%;
+	line-height: 50px;
+	text-align: center;
+	font-size: .30rem;
+	color: #fc4141;
+	background-color: #fff;
+	border-left: 2px solid #fc4141;
+}
+#classify .classify_list .classify_list_right{
+	overflow: hidden;
+	overflow-y: scroll;
+	flex: 1;
+}
+#classify .classify_list .classify_list_right dl{
+	width: 28%;
+	height: 2rem;
+	margin-left: 4%;
+	display: inline-block;
+	margin-top: 10px;
+	background-color: #f7f7f7;
+}
+#classify .classify_list .classify_list_right dl dt{
+	width: 100%;
+}
+#classify .classify_list .classify_list_right dl dt img{
+	width: 100%;
+	height: auto;
+}
+#classify .classify_list .classify_list_right dl dd{
+	width: 100%;
+	text-align: center;
+	line-height: .45rem;
+	font-size: .22rem;
+	color: #909090;
+}
+#classify .search{
+	width: 100%;
+	height: .8rem;
+	background-color: #fff;
+	position: relative;
+}
+#classify .search .search_ctr{
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	height: 88%;
+	position: relative;
+}
+#classify .search .search_ctr input{
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: .06rem;
+	padding-left: .7rem;
+	box-sizing: border-box;
+	background-color: #ccc;
+	margin-top: .12rem;
+}
+#classify .search .search_ctr i{
+	position: absolute;
+	top: 43%;
+	left: .2rem;
+}

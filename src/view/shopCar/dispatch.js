@@ -1,0 +1,53 @@
+import {UPDATA_COUNT,CHECKED_LIST,UPDATA_CART_LIST,CHECKED_ALL} from "../../store/action.js"
+import $http from "../../utils/http.js"
+import {Compute,getCookie,} from "../../utils/utils.js"
+export default function mapDispatchToprops(dispatch){
+	return{
+		fetchCart(){
+			$http.post("/countCart",{token:getCookie("token")})
+			.then(res=>{
+				if(res){
+					dispatch({
+						type:UPDATA_CART_LIST,
+						data:res
+					})
+				}
+			});
+		},
+		updataCount(count,id){
+			dispatch({
+				type:UPDATA_COUNT,
+				data:count,
+				id
+			})
+		},
+		checkList(selectd,id){
+			dispatch({
+				type:CHECKED_LIST,
+				data:selectd,
+				id
+			})
+		},
+		checkAll(str){
+			dispatch({
+				type:CHECKED_ALL,
+				str:str
+			})
+		},
+		deleteGoods(daleteId){
+			$http.post("/deleteGoods",{
+				daleteId,
+				token:getCookie("token")
+			})
+			.then(res=>{
+				if(res.code_num==1){
+					Compute(getCookie("token"),dispatch)
+					dispatch({
+						type:UPDATA_CART_LIST,
+						data:res.leftGoods
+					})
+				}
+			})
+		}
+	}
+}

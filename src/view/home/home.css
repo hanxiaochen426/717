@@ -1,0 +1,136 @@
+#home{
+	width: 100%;
+	height: 93%;
+	display: flex;
+	flex-direction: column;
+	background-color: #eeeeee;
+	overflow: auto;
+}
+#home .home-content{
+	flex: 1;
+}
+#home .cagetory{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fff;
+	margin-top: 7px;
+}
+#home .cagetory a {
+	width: 25%;
+	height: 1.4rem;
+}
+#home .cagetory a dl{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: .24rem;
+	margin-top: .1rem;
+}
+#home .cagetory a dl dt{
+	width: .8rem;
+	height: .8rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+#home .cagetory a dl dt img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+#home .botm{
+	width: 100%;
+	height: .5rem;
+	line-height: .5rem;
+	text-align: center;
+	font-size: .20rem;
+}
+#home .search{
+	width: 100%;
+	height: .8rem;
+	background-color: #fff;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 100;
+}
+#home .search .search_left{
+	width: .9rem;
+	height: 75%;
+	position: absolute;
+	left: .22rem;
+	top: .14rem;
+}
+#home .search .search_left img{
+	width: 100%;
+	height: 70%;
+}
+#home .search .search_right{
+	width: 1.12rem;
+	height: .9rem;
+	text-align: center;
+	color: red;
+	position: absolute;
+	right: .2rem;
+	top: .02rem;
+	font-size: .18rem;
+}
+#home .search .search_right dl{
+	width: 100%;
+	height: 100%;
+}
+#home .search .search_right dt{
+	width: 100%;
+	height: 47%;
+}
+#home .search .search_right dd{
+	font-size: .22rem;
+}
+#home .search .search_ctr{
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+	height: 70%;
+	position: relative;
+}
+#home .search .search_ctr input{
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: .06rem;
+	padding-left: .7rem;
+	box-sizing: border-box;
+	background-color: #ccc;
+	margin-top: .12rem;
+}
+#home .search .search_ctr i{
+	position: absolute;
+	top: 45%;
+	left: .2rem;
+}
+#home .cagetoryList .homeList{
+	width: 100%;
+	height: 1rem;
+}
+#home .cagetoryList .homeList .title{
+	margin-top: .1rem;
+	width: 100%;
+	height: .8rem;
+	background: #fff;
+	line-height: .8rem;
+	font-size: .27rem;
+	position: relative;
+}
+#home .cagetoryList .homeList .title h3{
+	width: 100%;
+	text-align: center;
+}
+#home .cagetoryList .homeList .title p{
+	position: absolute;
+	right: .27rem;
+	top: 0;
+	font-size: .25rem;
+}
+
+
+

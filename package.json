@@ -1,0 +1,51 @@
+{
+  "name": "react-env",
+  "version": "1.0.0",
+  "description": "a simple react dev env",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --color --config config/webpack.env.js",
+    "build": "cross-env NODE_ENV=production webpack --color --config config/webpack.build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "antd": "^3.1.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.14.0",
+    "eslint-plugin-react": "^7.5.1",
+    "express": "^4.16.3",
+    "file-loader": "^1.1.11",
+    "jsonwebtoken": "^8.2.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "lodash": "^4.17.5",
+    "prop-types": "^15.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "style-loader": "^0.19.1",
+    "swiper": "^4.0.7",
+    "url-loader": "^1.0.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-lazyload": "^2.3.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0"
+  }
+}

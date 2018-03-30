@@ -1,0 +1,92 @@
+#goodAdress{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #eee;
+	.active{
+		background: red;
+	}
+	.newAdress{
+		width: 70%;
+		height: .9rem;
+		background: #fc4141;
+		border-radius: 1rem;
+		margin-left: 15%;
+		text-align: center;
+		line-height: .9rem;
+		color: #fff;
+		font-size: .26rem;
+		margin-top: .2rem;
+	}
+	.total{
+		line-height: .7rem;
+		font-size: .24rem;
+		width: 100%;
+		text-align: center;
+	}
+	.address{
+		width: 100%;
+		height: 2.2rem;
+		background: #fff;
+		ul{
+			width: 100%;
+			height: 1.5rem;
+			font-size: .3rem;
+			padding: .3rem 0 0 .3rem;
+			box-sizing: border-box;
+			background: #fff;
+			li{
+				p{
+					font-size: .24rem;
+				}
+			}
+			li:first-child{
+				span{
+					letter-spacing: 1px;
+					margin-left: .2rem;
+				}
+			}
+			li:last-child{
+				span{
+					font-size: .24rem;
+					margin-left: .1rem;
+				}
+				span:first-child{
+					margin-left: 0;
+				}
+			}
+		}
+		.address_func{
+			width: 100%;
+			height: .7rem;
+			border-top: 1px solid #eee;
+			padding: 0 .05rem 0 .3rem;
+			line-height: .7rem;
+			box-sizing: border-box;
+			font-size: .26rem;
+			.iconfont{
+				font-size: .32rem;
+			}
+			label:first-child{
+				position: relative;
+				span:last-child{
+					margin-left: .5rem;
+				}
+			}
+			label:last-child{
+				span{
+					margin-right: .17rem;
+				}
+			}
+			.spanBtn{
+				display: inline-block;
+				width: .4rem;
+				height: .4rem;
+				border-radius: 50%;
+				border: 1px solid #ccc;
+				position: absolute;
+				top: .13rem;
+			}
+		}
+	}
+}

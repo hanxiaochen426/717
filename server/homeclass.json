@@ -1,0 +1,338 @@
+[
+	{
+		"id":"classify_1",
+		"name":"家乡味道",
+		"info":[
+			{
+				"good_id":"jia-1",
+				"title":"诗乡兔四川特产休闲零食50g多种口味麻辣小吃酱香大",
+				"price":12.00,
+				"imgSrc":"/src/static/image/homeclass/jia1.jpg"
+			},
+			{
+				"good_id":"jia-2",
+				"title":"哈肉联 哈肉联香惠肠90gx5袋哈尔滨红肠 东北特产 哈红肠五",
+				"price":36.80,
+				"imgSrc":"/src/static/image/homeclass/jia2.jpg"
+			},
+			{
+				"good_id":"jia-3",
+				"title":"西域美农 黄金椰枣 250g",
+				"price":12.90,
+				"imgSrc":"/src/static/image/homeclass/jia3.jpg"
+			},
+			{
+				"good_id":"jia-4",
+				"title":"大瀛 农场草鸡 1.3kg/袋装",
+				"price":58.00,
+				"imgSrc":"/src/static/image/homeclass/jia4.jpg"
+			},
+			{
+				"good_id":"jia-5",
+				"title":"光临 天然枸杞蜂蜜500g 包邮",
+				"price":39.00,
+				"imgSrc":"/src/static/image/homeclass/jia5.jpg"
+			},
+			{
+				"good_id":"jia-6",
+				"title":"正宗江西特产 地源三味蛋4枚装 皮蛋的风味 咸蛋的美味 卤",
+				"price":7.17,
+				"imgSrc":"/src/static/image/homeclass/jia6.jpg"
+			}
+		]
+	},
+	{
+		"id":"classify_2",
+		"name":"进口食品",
+		"info":[
+			{
+				"good_id":"jin-1",
+				"title":"南洋古早 540g炭烧黑咖啡 马来西亚原装进口",
+				"price":59.00,
+				"imgSrc":"/src/static/image/homeclass/jin1.jpg"
+			},
+			{
+				"good_id":"jin-2",
+				"title":"南洋古早原味白咖啡40克*10",
+				"price":44.00,
+				"imgSrc":"/src/static/image/homeclass/jin2.jpg"
+			},
+			{
+				"good_id":"jin-3",
+				"title":"希尔庄园 土耳其进口特级初榨橄榄油礼盒1L*2 送礼团购",
+				"price":286.00,
+				"imgSrc":"/src/static/image/homeclass/jin3.jpg"
+			},
+			{
+				"good_id":"jin-4",
+				"title":"希尔庄园 土耳其进口特级初榨橄榄油礼盒750ml*2 送礼团购",
+				"price":216.00,
+				"imgSrc":"/src/static/image/homeclass/jin4.jpg"
+			},
+			{
+				"good_id":"jin-5",
+				"title":"舒川雪味 海苔3连包 韩国儿童烤海苔零食 4.5g*3",
+				"price":7.90,
+				"imgSrc":"/src/static/image/homeclass/jin5.jpg"
+			},
+			{
+				"good_id":"jin-6",
+				"title":"韩国舒川雪味 海苔 4.5g*3袋*18 包邮 整箱",
+				"price":139.00,
+				"imgSrc":"/src/static/image/homeclass/jin6.jpg"
+			}
+		]
+	},
+	{
+		"id":"classify_3",
+		"name":"牛奶乳品",
+		"info":[
+			{
+				"good_id":"niu-1",
+				"title":"光临 天然枸杞蜂蜜500g 包邮",
+				"price":39.00,
+				"imgSrc":"/src/static/image/homeclass/niu1.jpg"
+			},
+			{
+				"good_id":"niu-2",
+				"title":"英发 姜埋双皮奶500g广西特产正宗地道",
+				"price":91.00,
+				"imgSrc":"/src/static/image/homeclass/niu2.jpg"
+			},
+			{
+				"good_id":"niu-3",
+				"title":"英发 金装椰香双皮奶 25g*5包/盒  2盒包邮",
+				"price":23.00,
+				"imgSrc":"/src/static/image/homeclass/niu3.jpg"
+			},
+			{
+				"good_id":"niu-4",
+				"title":"台椰 生榨椰子汁果肉果味椰奶植物饮料椰汁  358ml*15瓶",
+				"price":78.00,
+				"imgSrc":"/src/static/image/homeclass/niu4.jpg"
+			},
+			{
+				"good_id":"niu-5",
+				"title":"英发 南粤礼品装姜麦奶500g广西特产双皮奶",
+				"price":94.00,
+				"imgSrc":"/src/static/image/homeclass/niu5.jpg"
+			},
+			{
+				"good_id":"niu-6",
+				"title":"英发 金装红枣双皮奶 25g*5包/盒 2件包邮",
+				"price":23.00,
+				"imgSrc":"/src/static/image/homeclass/niu6.jpg"
+			}
+		]
+	},
+	{
+		"id":"classify_4",
+		"name":"休闲零食",
+		"info":[
+			{
+				"good_id":"xiu-1",
+				"title":"母亲 早餐牛肉棒微辣味 60g 休闲零食",
+				"price":8.50,
+				"imgSrc":"/src/static/image/homeclass/xiu1.jpg"
+			},
+			{
+				"good_id":"xiu-2",
+				"title":"诗乡兔四川特产休闲零食50g多种口味麻辣小吃酱香大",
+				"price":12.00,
+				"imgSrc":"/src/static/image/homeclass/xiu2.jpg"
+			},
+			{
+				"good_id":"xiu-3",
+				"title":"都市余味 天山冰梅  118g",
+				"price":8.20,
+				"imgSrc":"/src/static/image/homeclass/xiu3.jpg"
+			},
+			{
+				"good_id":"xiu-4",
+				"title":"都市余味 炭烧腰果  218g 坚果",
+				"price":35.60,
+				"imgSrc":"/src/static/image/homeclass/xiu4.jpg"
+			},
+			{
+				"good_id":"xiu-5",
+				"title":"T3条装瑞诗丹莲金莎巧克力礼盒结婚庆喜糖零食37.5g",
+				"price":4.50,
+				"imgSrc":"/src/static/image/homeclass/xiu5.jpg"
+			},
+			{
+				"good_id":"xiu-6",
+				"title":"西域美农 东北山货榛子  160g",
+				"price":13.90,
+				"imgSrc":"/src/static/image/homeclass/xiu6.jpg"
+			}
+		]
+	},
+	{
+		"id":"classify_5",
+		"name":"生鲜果蔬",
+		"info":[
+			{
+				"good_id":"shen-1",
+				"title":"西班牙黑毛猪 西班牙伊比利亚黑猪肉带骨后腿肉 1000g",
+				"price":156.00,
+				"imgSrc":"/src/static/image/homeclass/shen1.jpg"
+			},
+			{
+				"good_id":"shen-2",
+				"title":"飘零大叔 正宗新鲜土鸡蛋纯天然柴鸡蛋土特产笨鸡蛋草鸡蛋农家自养30枚 ",
+				"price":49.00,
+				"imgSrc":"/src/static/image/homeclass/shen2.jpg"
+			},
+			{
+				"good_id":"shen-3",
+				"title":"大瀛 农场草鸡 1.3kg/袋装",
+				"price":58.00,
+				"imgSrc":"/src/static/image/homeclass/shen3.jpg"
+			},
+			{
+				"good_id":"shen-4",
+				"title":"大瀛 紫糯玉米2kg ",
+				"price":36.00,
+				"imgSrc":"/src/static/image/homeclass/shen4.jpg"
+			},
+			{
+				"good_id":"shen-5",
+				"title":"地源珍硒三味蛋 8枚 皮蛋鸭蛋卤蛋味真空包装",
+				"price":23.80,
+				"imgSrc":"/src/static/image/homeclass/shen5.jpg"
+			},
+			{
+				"good_id":"shen-6",
+				"title":"正宗地源三味蛋1760g 鸭蛋皮蛋卤蛋三种口味32枚",
+				"price":142.00,
+				"imgSrc":"/src/static/image/homeclass/shen6.jpg"
+			}
+		]
+	},
+	{
+		"id":"classify_6",
+		"name":"米面粮油",
+		"info":[
+			{
+				"good_id":"mi-1",
+				"title":"和三源 冷榨花生油380ml 食用油 ",
+				"price":18.00,
+				"imgSrc":"/src/static/image/homeclass/mi1.jpg"
+			},
+			{
+				"good_id":"mi-2",
+				"title":"都市余味 红豆杂粮米面  370g",
+				"price":9.30,
+				"imgSrc":"/src/static/image/homeclass/mi2.jpg"
+			},
+			{
+				"good_id":"mi-3",
+				"title":"都市余味 黄豆杂粮豆类  300g",
+				"price":7.20,
+				"imgSrc":"/src/static/image/homeclass/mi4.jpg"
+			},
+			{
+				"good_id":"mi-4",
+				"title":"希尔庄园 土耳其进口特级初榨橄榄油礼盒1L*2 送礼团购",
+				"price":286.00,
+				"imgSrc":"/src/static/image/homeclass/mi4.jpg"
+			},
+			{
+				"good_id":"mi-5",
+				"title":"希尔庄园 土耳其进口特级初榨橄榄油礼盒750ml*2 送礼团购",
+				"price":216.00,
+				"imgSrc":"/src/static/image/homeclass/mi5.jpg"
+			},
+			{
+				"good_id":"mi-6",
+				"title":"希尔庄园 土耳其进口特级初榨橄榄油500ML*2礼盒装 送礼佳品",
+				"price":166.00,
+				"imgSrc":"/src/static/image/homeclass/mi6.jpg"
+			}
+		]
+	},
+	{
+		"id":"classify_7",
+		"name":"调味调料",
+		"info":[
+			{
+				"good_id":"tiao-1",
+				"title":"北大荒有机酸菜 1.5kg",
+				"price":45.80,
+				"imgSrc":"/src/static/image/homeclass/tiao1.jpg"
+			},
+			{
+				"good_id":"tiao-2",
+				"title":"安徽特产 调味酱 鸡笼山辣椒酱 正宗麻油片椒270g  ",
+				"price":3.50,
+				"imgSrc":"/src/static/image/homeclass/tiao2.jpg"
+			},
+			{
+				"good_id":"tiao-3",
+				"title":"安徽特产 安徽马鞍山特产鸡笼山风味辣椒酱270g辣椒酱拌面拌饭酱好吃下饭菜  270g",
+				"price":4.00,
+				"imgSrc":"/src/static/image/homeclass/tiao4.jpg"
+			},
+			{
+				"good_id":"tiao-4",
+				"title":"安徽特产 诱厨纯芝麻油礼盒（2瓶装）  1000g",
+				"price":49.00,
+				"imgSrc":"/src/static/image/homeclass/tiao4.jpg"
+			},
+			{
+				"good_id":"tiao-5",
+				"title":"安徽特产 绿福园茶籽油750ml 压榨油茶籽油 山茶油  750g",
+				"price":168.00,
+				"imgSrc":"/src/static/image/homeclass/tiao5.jpg"
+			},
+			{
+				"good_id":"tiao-6",
+				"title":"安徽特产 巢三珍风味鮰鱼辣子酱260g  260g",
+				"price":13.00,
+				"imgSrc":"/src/static/image/homeclass/tiao6.jpg"
+			}
+		]
+	},
+	{
+		"id":"classify_8",
+		"name":"酒水饮料",
+		"info":[
+			{
+				"good_id":"jiu-1",
+				"title":"洋府 洋府老窖30年 500ml",
+				"price":95.00,
+				"imgSrc":"/src/static/image/homeclass/jiu1.png"
+			},
+			{
+				"good_id":"jiu-2",
+				"title":"洋府 梦之愿黄坛  浓香绵柔型  500ml",
+				"price":160.00,
+				"imgSrc":"/src/static/image/homeclass/jiu2.jpg"
+			},
+			{
+				"good_id":"jiu-3",
+				"title":"京粮禦 京粮禦陈52度  500ml/瓶",
+				"price":78.00,
+				"imgSrc":"/src/static/image/homeclass/jiu3.jpg"
+			},
+			{
+				"good_id":"jiu-4",
+				"title":"夷福馨苑 正山小种小礼盒  250g/盒",
+				"price":198.00,
+				"imgSrc":"/src/static/image/homeclass/jiu4.jpg"
+			},
+			{
+				"good_id":"jiu-5",
+				"title":"阳光硒耳汁植物饮料240ml*12罐 一箱",
+				"price":118.00,
+				"imgSrc":"/src/static/image/homeclass/jiu5.png"
+			},
+			{
+				"good_id":"jiu-6",
+				"title":"美伊琳水素水 含氢袋装饮用水  360ml",
+				"price":27.17,
+				"imgSrc":"/src/static/image/homeclass/jiu6.jpg"
+			}
+		]
+	}
+]
